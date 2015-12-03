@@ -2,7 +2,9 @@
 
 This is the code and circuit diagram for our Wearable Touch Pad, a project for Intro to Physical Computing (60-223) at Carnegie Mellon University. 
 
-The code to load onto the Light Blue Bean (or arduino uno) is in touch_pad_testing. 
+The code to load onto the Light Blue Bean (or arduino uno) is in touch_pad_testing. If you want to upload to the bean, you will need to set up your Arduino IDE to do so (mac: http://legacy.punchthrough.com/bean/getting-started-osx/)(windows: http://legacy.punchthrough.com/bean/getting-started-windows/). Also, you will need the following libraries: <br>
+ModernDevice's capSense library for the buttons: https://github.com/moderndevice/CapSense<br>
+Adafruit's ADS1015 library (only if using the bean, otherwise, just use uno's analog pins): https://github.com/adafruit/Adafruit_ADS1X15<br>
 
 The processing code to visualize the data coming from the sensor (sent over serial) is in touch_pad_visualization. 
 
